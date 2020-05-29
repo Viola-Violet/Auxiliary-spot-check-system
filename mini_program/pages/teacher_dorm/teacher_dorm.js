@@ -25,6 +25,17 @@ Page({
   ],
   },
 
+    //点击
+    click: function () {
+      //加载中的样式
+      wx.showToast({
+      title: '加载中...',
+      mask: true,
+      icon: 'loading',
+      duration: 400
+    }) 
+  },
+
   handleChange ({ detail }) {
     this.setData({
         current: detail.key

@@ -55,6 +55,7 @@ App({
     server: 'https://oeong.xyz', //域名
     height:'', //手机屏幕高度
     load: false,  //判断用户是否授权
+    PageCur:'',
     flag:'',
     userInfomation:'',
     name:'', 
